@@ -1,8 +1,8 @@
 const getData = (action, next) => {
-    fetch('http://172.25.161.51:4000/base', {
+    fetch('http://172.25.0.70:4000/base', {
         method: 'GET',
-        //credentials: 'include',
-        mode: 'no-cors',
+        credentials: 'include',
+        //mode: 'no-cors',
         headers: {
             'Accept': 'application/x-www-form-urlencoded, text/plain, */*',
             'Content-Type': 'application/x-www-form-urlencoded'

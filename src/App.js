@@ -23,7 +23,7 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.props.users)
+    //console.log(this.props.users)
     return (
       <div className='flex-page' >
         <header className="App-header">
